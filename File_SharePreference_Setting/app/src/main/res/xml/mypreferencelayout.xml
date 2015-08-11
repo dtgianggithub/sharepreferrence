@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Color Config">
+
+        <CheckBoxPreference
+            android:title="Change Background"
+            android:defaultValue="false"
+            android:summary="True of False"
+            android:key="backgroundpref"
+            >
+
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Another Config">
+
+       <EditTextPreference
+           android:summary="Enter a string"
+           android:defaultValue="[Enter string]"
+           android:title="Edit Text"
+           android:key="edittextpref"
+           ></EditTextPreference>
+
+        <RingtonePreference
+            android:summary="Edit ring tone"
+            android:title="Edit ringstone"
+            android:key="ringtonepref"
+            >
+
+        </RingtonePreference>
+
+        <PreferenceScreen
+            android:title="Second PreferenceScreen"
+            android:key="secondscreenpref"
+            android:summary="Click here to go to the screen 2"
+            >
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
